@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Property Form</title>
+    <meta charset="UTF-8">
+    <link
+        rel="stylesheet"
+        href="assets/styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <button
+        class="back-btn"
+        onclick="history.back()">
+
+        Back
+
+    </button>
+
+    <h1>Property Form</h1>
+
+    <form id="propertyForm">
+
+        <input
+            id="landlordName"
+            placeholder="Landlord Name"
+            required>
+
+        <input
+            id="phone"
+            placeholder="Phone"
+            required>
+
+        <input
+            id="rentPrice"
+            type="number"
+            placeholder="Rent Price"
+            required>
+
+        <select
+            id="location"
+            required>
+        </select>
+
+        <select
+            id="propertyType"
+            required>
+        </select>
+
+        <h3>Features</h3>
+
+        <div
+            id="featuresBox"
+            class="checkbox-group">
+        </div>
+
+        <select id="status">
+        </select>
+
+        <textarea
+            id="notes"
+            rows="4"
+            placeholder="Notes">
+        </textarea>
+
+        <button
+            type="submit"
+            class="primary">
+
+            Save Property
+
+        </button>
+
+    </form>
+
+</div>
+
+<script src="assets/constants.js"></script>
+<script src="assets/storage.js"></script>
+<script src="assets/ids.js"></script>
+<script src="assets/navbar.js"></script>
+<script src="assets/properties.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <link
+        rel="stylesheet"
+        href="assets/styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+    <p class="muted">
+        Manage tenants, properties and matches
+    </p>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <h3>Total Tenants</h3>
+            <h2 id="tenantCount">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <h3>Total Properties</h3>
+            <h2 id="propertyCount">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <h3>Potential Matches</h3>
+            <h2 id="matchCount">0</h2>
+        </div>
+
+    </div>
+
+    <div class="dashboard-actions">
+
+        <a href="tenants.html">
+            <button class="primary">
+                Tenants
+            </button>
+        </a>
+
+        <a href="properties.html">
+            <button class="primary">
+                Properties
+            </button>
+        </a>
+
+        <button
+            class="primary"
+            onclick="Backup.export()">
+
+            Export
+        </button>
+
+        <label class="primary file-btn">
+
+            Import
+
+            <input
+                type="file"
+                id="backupFile"
+                accept=".json"
+                hidden>
+
+        </label>
+
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="panel">
+
+            <h3>System Summary</h3>
+
+            <div id="systemSummary"></div>
+
+        </div>
+
+        <div class="panel">
+
+            <h3>Recent Activity</h3>
+
+            <div id="activityList"></div>
+
+        </div>
+
+        <div class="panel">
+
+            <h3>Recent Tenants</h3>
+
+            <div id="recentTenants"></div>
+
+        </div>
+
+        <div class="panel">
+
+            <h3>Recent Properties</h3>
+
+            <div id="recentProperties"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="assets/storage.js"></script>
+<script src="assets/backup.js"></script>
+<script src="assets/navbar.js"></script>
+<script src="assets/dashboard.js"></script>
+
+</body>
+</html>

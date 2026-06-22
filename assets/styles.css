@@ -1,0 +1,332 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 90px 20px 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.muted {
+    color: #666;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 12px 20px;
+
+    background: #111;
+    color: white;
+
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-links a {
+    color: white;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary {
+    background: #111;
+    color: white;
+}
+
+.edit {
+    background: #ddd;
+}
+
+.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.back-btn {
+    background: #111;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* =========================
+   CHECKBOX GROUPS
+========================= */
+
+.checkbox {
+width: 70%;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group h4 {
+    margin-bottom: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.stats-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    box-shadow:
+        0 1px 4px rgba(0,0,0,.08);
+}
+
+.stat-card h3 {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.stat-card h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.dashboard-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+}
+
+.file-btn {
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    background: #111;
+    color: white;
+}
+
+.dashboard-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.panel {
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 1px 4px rgba(0,0,0,.08);
+}
+
+.panel h3 {
+    margin-bottom: 12px;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.entity-card,
+.detail-card,
+.match-card {
+    background: white;
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 1px 4px rgba(0,0,0,.08);
+}
+
+.card-actions {
+    margin-top: 10px;
+}
+
+.card-actions button {
+    margin-right: 5px;
+}
+
+/* =========================
+   STATUS BADGES
+========================= */
+
+.badge {
+    display: inline-block;
+
+    padding: 4px 8px;
+
+    border-radius: 6px;
+
+    background: #eee;
+
+    font-size: 12px;
+}
+
+/* =========================
+   DETAIL PAGE
+========================= */
+
+.detail-card p {
+    margin: 8px 0;
+}
+
+/* =========================
+   MATCH RESULTS
+========================= */
+
+.match-card strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   ACTIVITY LIST
+========================= */
+
+.activity-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.activity-item:last-child {
+    border-bottom: none;
+}
+
+.activity-item a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-actions {
+        flex-direction: column;
+    }
+
+    .dashboard-actions a,
+    .dashboard-actions button,
+    .file-btn {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+.match-good {
+    border-left: 5px solid #27ae60;
+}
+
+.match-medium {
+    border-left: 5px solid #f39c12;
+}
+
+.match-low {
+    border-left: 5px solid #e74c3c;
+}
