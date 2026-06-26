@@ -129,47 +129,40 @@ function initTenantForm() {
     });
 
     LOCATIONS.forEach(location => {
-
-        document
-            .getElementById(
-                "locationsBox"
-            )
-            .innerHTML += `
-
-            <label>
-
-                <input
-                    type="checkbox"
-                    value="${location}"
-                    name="location">
-
-                ${location}
-
-            </label>
+        document.getElementById("locationsBox").innerHTML += `
+            <div class="checkbox-item">
+                <label>
+                    <span class="checkbox-text">${location}</span>
+                    <input type="checkbox" value="${location}" name="location">
+                </label>
+            </div>
         `;
     });
 
     FEATURES.forEach(feature => {
-
-        document
-            .getElementById(
-                "requirementsBox"
-            )
-            .innerHTML += `
-
-            <label>
-
-                <input
-                    type="checkbox"
-                    value="${feature}"
-                    name="requirement">
-
-                ${feature}
-
-            </label>
+        document.getElementById("requirementsBox").innerHTML += `
+            <div class="checkbox-item">
+                <label>
+                    <span class="checkbox-text">${feature}</span>
+                    <input type="checkbox" value="${feature}" name="requirement" class="requirement-checkbox">
+                </label>
+            </div>
         `;
     });
+    const checkAllBtn = document.getElementById("checkAllBtn");
+    const uncheckAllBtn = document.getElementById("uncheckAllBtn");
 
+    checkAllBtn.addEventListener("click", () => {
+        document.querySelectorAll(".requirement-checkbox").forEach(cb => {
+            cb.checked = true;
+        });
+    });
+
+    uncheckAllBtn.addEventListener("click", () => {
+        document.querySelectorAll(".requirement-checkbox").forEach(cb => {
+            cb.checked = false;
+        });
+    });
     const params =
         new URLSearchParams(
             location.search

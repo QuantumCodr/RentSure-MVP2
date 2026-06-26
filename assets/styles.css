@@ -38,18 +38,15 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-
     padding: 12px 20px;
-
     background: #111;
     color: white;
-
     z-index: 1000;
+    height: 8vh;
 }
 
 .nav-links {
@@ -102,10 +99,8 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 12px;
-
     border: 1px solid #ddd;
     border-radius: 6px;
-
     box-sizing: border-box;
 }
 
@@ -141,24 +136,17 @@ width: 70%;
 
 .stats-grid {
     display: grid;
-    grid-template-columns:
-        repeat(auto-fit, minmax(200px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     margin-bottom: 20px;
 }
 
 .stat-card {
     background: white;
-
     padding: 15px;
-
     border-radius: 8px;
-
     text-align: center;
-
-    box-shadow:
-        0 1px 4px rgba(0,0,0,.08);
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
 }
 
 .stat-card h3 {
@@ -329,4 +317,60 @@ width: 70%;
 
 .match-low {
     border-left: 5px solid #e74c3c;
+}
+
+#featuresBox,
+#locationsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* reusable checkbox row */
+.checkbox-item label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+
+    cursor: pointer;
+}
+
+/* text */
+.checkbox-text {
+    font-size: 14px;
+    color: #333;
+}
+
+/* checkbox sizing */
+.checkbox-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-item label:hover {
+    background: #f6f6f6;
+    transition: 0.2s;
+}
+
+.checkbox-item input:checked {
+    accent-color: #111;
+}
+
+.btn-outline {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.btn-outline:hover {
+    background: #f5f5f5;
 }

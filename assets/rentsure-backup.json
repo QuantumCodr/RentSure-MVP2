@@ -1,0 +1,414 @@
+{
+  "tenants": [
+    {
+      "id": "T001",
+      "fullName": "Mr. Umar",
+      "phone": "+23277082980",
+      "budget": 1200,
+      "propertyType": "1 Bedroom",
+      "locations": [
+        "Jui",
+        "Hastings",
+        "Allen Town",
+        "Rokel"
+      ],
+      "requirements": [
+        "Water",
+        "Electricity",
+        "Self Contained",
+        "Road Access"
+      ],
+      "status": "LOOKING",
+      "notes": "This is umarr. I got ur number on tiktok advertising\nI'm currently looking for place,  one room en parlour self contained,with kitchen and even 2 rooms around jui, Hastings, rokel, Allen town\n\nRoom and a parlour self contained or two rooms and a parlour any of the above.",
+      "createdAt": "2026-06-26T06:24:39.282Z"
+    },
+    {
+      "id": "T002",
+      "fullName": "Miss Laur",
+      "phone": "+23299620302",
+      "budget": 15000,
+      "propertyType": "1 Bedroom",
+      "locations": [
+        "Aberdeen",
+        "Congo Cross",
+        "Brookfields",
+        "Juba",
+        "Murray Town",
+        "Wilkinson Road"
+      ],
+      "requirements": [
+        "Water",
+        "Electricity",
+        "Self Contained",
+        "Road Access"
+      ],
+      "status": "LOOKING",
+      "notes": "Hello good afternoon \n\nPlease I'm looking for a single room self contained place my budget is 11million leones \n\nKindly let me know if you have any.\n\nPreferred areas are Aberdeen congo cross or brookfields\n\nHello\nPlease do you have a room and parlour place for rent \nAround 15mill",
+      "createdAt": "2026-06-26T06:28:31.228Z"
+    },
+    {
+      "id": "T003",
+      "fullName": "Yusuf",
+      "phone": "+23274370364",
+      "budget": 15000,
+      "propertyType": "1 Bedroom",
+      "locations": [
+        "Aberdeen",
+        "Congo Cross",
+        "Lumley",
+        "Juba",
+        "Godrich",
+        "Wilkinson Road"
+      ],
+      "requirements": [
+        "Water",
+        "Electricity",
+        "Self Contained"
+      ],
+      "status": "LOOKING",
+      "notes": "Yusuf here \nAm messaging concerning a single Room self contained\nLunley,Wilkinson Rd,spur road,lunley road,lakka,ogoofarm",
+      "createdAt": "2026-06-26T06:31:24.062Z"
+    },
+    {
+      "id": "T004",
+      "fullName": "Mire Blue",
+      "phone": "+23274454661",
+      "budget": 10000,
+      "propertyType": "Single Room",
+      "locations": [
+        "Aberdeen",
+        "Congo Cross",
+        "Brookfields",
+        "Imat",
+        "Lumley",
+        "Kaningo",
+        "Kamayama",
+        "Juba",
+        "Murray Town",
+        "Congo Town",
+        "Tengbeh Town",
+        "Wilberforce",
+        "Wilkinson Road"
+      ],
+      "requirements": [
+        "Self Contained"
+      ],
+      "status": "LOOKING",
+      "notes": "Good evening.\nI'm in need of single room and bathroom. Western area",
+      "createdAt": "2026-06-26T06:34:54.705Z"
+    },
+    {
+      "id": "T005",
+      "fullName": "~A",
+      "phone": "+23290729805",
+      "budget": 10000,
+      "propertyType": "Single Room",
+      "locations": [
+        "Juba",
+        "Wilberforce"
+      ],
+      "requirements": [
+        "Water",
+        "Electricity",
+        "Self Contained"
+      ],
+      "status": "LOOKING",
+      "notes": "Hello rent sure\nPlease can I know prices for single rooms.",
+      "createdAt": "2026-06-26T06:37:22.404Z"
+    }
+  ],
+  "properties": [
+    {
+      "id": "P001",
+      "landlordName": "~josieee",
+      "phone": "+23278810599",
+      "rentPrice": 30000,
+      "location": "Godrich",
+      "propertyType": "2 Bedroom",
+      "features": [
+        "Water",
+        "Electricity",
+        "Self Contained"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Two bedrooms and palor with verandah, two bathrooms  available at ogoo Farm\nAsking price 30,000",
+      "createdAt": "2026-06-26T06:51:04.355Z"
+    },
+    {
+      "id": "P002",
+      "landlordName": "abdulaijkamara513",
+      "phone": "+23231058172",
+      "rentPrice": 75000,
+      "location": "other",
+      "propertyType": "4 Bedroom",
+      "features": [
+        "Water",
+        "Electricity",
+        "Self Contained",
+        "Compound"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Hot breaking News: four rooms two bathrooms inside fence compound water and light no wahala for rent only two apartments in the compound at main Hamilton for $3700 interested person should contact this number +23231058172",
+      "createdAt": "2026-06-26T06:54:06.322Z"
+    },
+    {
+      "id": "P003",
+      "landlordName": "Sallu",
+      "phone": "+23234353927",
+      "rentPrice": 20000,
+      "location": "Lumley",
+      "propertyType": "Single Room",
+      "features": [
+        "Self Contained",
+        "Compound"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Big single room bathroom fence compound available for rent at regent road Lumley price is 20 million old note best",
+      "createdAt": "2026-06-26T06:59:54.419Z"
+    },
+    {
+      "id": "P004",
+      "landlordName": "The Light",
+      "phone": "+23273073214",
+      "rentPrice": 14000,
+      "location": "Juba",
+      "propertyType": "Single Room",
+      "features": [
+        "Self Contained"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Very Big Single room \nWith decent bathroom and veranda \nU can even make as room and a parlour..\nLocated at juba after Lor restaurant by levuma beach \n14 best price\nThrough me \nMessage me now if interested \nHot cake 🔥 🥞",
+      "createdAt": "2026-06-26T07:02:44.075Z"
+    },
+    {
+      "id": "P005",
+      "landlordName": "Sallu",
+      "phone": "+2324353927",
+      "rentPrice": 75000,
+      "location": "Hamilton",
+      "propertyType": "Single Room",
+      "features": [
+        "Water",
+        "Electricity",
+        "Dinning",
+        "Kitchen",
+        "Parking",
+        "Compound",
+        "Road Access"
+      ],
+      "status": "AVAILABLE",
+      "notes": "4 bedroom 2 bathroom with big kitchen and big parlour and dining. \nInside big fence compound that can take up to 6 car.\n\nOnly 2 apartment in the compound. \nThe downstairs is available now for rent. \n\nNot far from the main road. \n\nAvailable at Hamilton. \n\nPipe running water .\n\nThe place only need painting which will be done be the owner. \n\nAsking price $3,700 but negotiable",
+      "createdAt": "2026-06-26T07:42:40.968Z"
+    },
+    {
+      "id": "P006",
+      "landlordName": "Sir J",
+      "phone": "+232 77 255540",
+      "rentPrice": 40000,
+      "location": "other",
+      "propertyType": "2 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity"
+      ],
+      "status": "AVAILABLE",
+      "notes": "2 rooms and parlour self contained water and light available One bathrooms fence compound asking price 40 million but negotiable \nLocation off model new road",
+      "createdAt": "2026-06-26T07:44:52.055Z"
+    },
+    {
+      "id": "P007",
+      "landlordName": "Sir J",
+      "phone": "+232 77 255450",
+      "rentPrice": 60000,
+      "location": "Brookfields",
+      "propertyType": "2 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity",
+        "Dinning",
+        "Kitchen",
+        "Parking",
+        "Compound",
+        "Road Access"
+      ],
+      "status": "AVAILABLE",
+      "notes": "2 rooms and parlour self contained water and light available kitchen fence compound \nDinning, store, \nAsking price 60 million \nWith car parking space \nLocation Brookfield ",
+      "createdAt": "2026-06-26T07:48:28.022Z"
+    },
+    {
+      "id": "P008",
+      "landlordName": "Real Estate Business",
+      "phone": "+232 75 475393",
+      "rentPrice": 75000,
+      "location": "Juba",
+      "propertyType": "4 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity",
+        "Dinning",
+        "Kitchen",
+        "Compound"
+      ],
+      "status": "AVAILABLE",
+      "notes": "4 bedrooms 3 bathrooms kitchen dinning study room fence compound available for rent at Juba momoh drive  price is 75 million old note",
+      "createdAt": "2026-06-26T07:51:13.797Z"
+    },
+    {
+      "id": "P009",
+      "landlordName": "Agent Bobson",
+      "phone": "+232 31 411786",
+      "rentPrice": 60000,
+      "location": "other",
+      "propertyType": "3 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity",
+        "Dinning",
+        "Kitchen",
+        "Parking",
+        "Compound",
+        "Road Access"
+      ],
+      "status": "AVAILABLE",
+      "notes": "BOBSON PROPERTY SOLUTIONS SL LTD \n\nThree bedrooms apartment available for RENT at Banga farm \n\nThree bedrooms \nTwo master \nThree bathrooms \nKitchen, dining and parlour \nFence Compound \nWater and light available \n\nAsking price is Nle 60,000 \n\nCall OR WHATSAPP US +232 31411786\n\nBanga Farm",
+      "createdAt": "2026-06-26T07:55:08.759Z"
+    },
+    {
+      "id": "P010",
+      "landlordName": "Mr. Abdulai",
+      "phone": "+232 75 675228",
+      "rentPrice": 40000,
+      "location": "Wellington",
+      "propertyType": "3 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity",
+        "Dinning"
+      ],
+      "status": "AVAILABLE",
+      "notes": "EASTERN PART OF FREETOWN  WELLINGTON...............\n\nNEWLY BUILT HOUSE......\n\nDECENT (3) BEDROOM WITH (2) BATHROOM WITH KITCHEN WITH DINNING  WATER AND LIGHT AVAILABLE \n\nTHE PRICE IS  40,000 LEONES BEST..........\n \n+23272675228\n+23233390499",
+      "createdAt": "2026-06-26T08:03:47.695Z"
+    },
+    {
+      "id": "P011",
+      "landlordName": "Legend",
+      "phone": "+232 77 866 024",
+      "rentPrice": 35000,
+      "location": "Godrich",
+      "propertyType": "1 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Kitchen"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Room and a palour \nBirthroom \nKitchen \nAt Adoonkia \nAsking price 35 million \nBut negotiable\nPv me if interested\n\nAdonkia",
+      "createdAt": "2026-06-26T08:08:13.971Z"
+    },
+    {
+      "id": "P012",
+      "landlordName": "Mr.Kamara",
+      "phone": "+232 78 991692",
+      "rentPrice": 7500,
+      "location": "Tengbeh Town",
+      "propertyType": "1 Bedroom",
+      "features": [
+        "Water",
+        "Electricity"
+      ],
+      "status": "AVAILABLE",
+      "notes": "Room parlor varandar outside bathroom 7.5 million Old Leones two years payment needed located at upper tengbeh town near barrick two minutes work from bike or car stop to the house.",
+      "createdAt": "2026-06-26T08:11:37.837Z"
+    },
+    {
+      "id": "P013",
+      "landlordName": "The Light",
+      "phone": "+232 73 073 214",
+      "rentPrice": 18000,
+      "location": "Wilkinson Road",
+      "propertyType": "Single Room",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity"
+      ],
+      "status": "AVAILABLE",
+      "notes": "1 room and a parlour \nBathroom with veranda \n18 charge \n2 years needed \nThrough me 1 year 6 months\nD price also negotiable Through me\nBoss Raymond \nLocated at Wilkinson Road..",
+      "createdAt": "2026-06-26T08:15:11.145Z"
+    },
+    {
+      "id": "P014",
+      "landlordName": "The Light",
+      "phone": "+232 74 074 214",
+      "rentPrice": 4000,
+      "location": "other",
+      "propertyType": "Single Room",
+      "features": [
+        "Water",
+        "Electricity",
+        "Road Access"
+      ],
+      "status": "AVAILABLE",
+      "notes": "SINGLE ROOM OUT SIDE TOILET \n\nWATER LIGHT AVAILABLE \n\nLOCATION AT BACK OF STADIUM \n\nASKING PRICE IS 4 MILLION 2 YEARS RENT NEEDED \n\nCONSULTATION FEE IS 300 PLUS 10%",
+      "createdAt": "2026-06-26T08:18:18.392Z"
+    },
+    {
+      "id": "P015",
+      "landlordName": "Agent",
+      "phone": "+232 73 112383",
+      "rentPrice": 16000,
+      "location": "Hill Station",
+      "propertyType": "1 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity"
+      ],
+      "status": "AVAILABLE",
+      "notes": "room and paliour self contain water and light available with big varinada asking price is 16million charge but negotiable is laction by Hill station  but we have terms and conditions agent fee's which is 30 with ten parsent at the same time you do the payment 073112383",
+      "createdAt": "2026-06-26T08:22:04.099Z"
+    },
+    {
+      "id": "P016",
+      "landlordName": "Mr.Abdulai",
+      "phone": "+23272675228",
+      "rentPrice": 9500,
+      "location": "other",
+      "propertyType": "Single Room",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity"
+      ],
+      "status": "AVAILABLE",
+      "notes": "EASTERN PART OF FREETOWN  ALLIENTOWN.........\n\n\nDECENT  SINGLE ROOM SELF CONTAIN   WITH BATHROOM  WITH SELF VERANDA  TILE ALLOVER   WATER LIGHT AVAILABLE \n\nTHE PRICE IS  9.500 MILLION LEONES CHARGE BUT NEGOTIABLE  ONLY ONE YEAR PAYMENT NEEDED \n\n+23272675228\n+23233390499     ",
+      "createdAt": "2026-06-26T08:26:39.546Z"
+    },
+    {
+      "id": "P017",
+      "landlordName": "Abuka",
+      "phone": "076479396",
+      "rentPrice": 60000,
+      "location": "other",
+      "propertyType": "3 Bedroom",
+      "features": [
+        "Self Contained",
+        "Water",
+        "Electricity",
+        "Dinning",
+        "Kitchen",
+        "Parking",
+        "Compound",
+        "Road Access"
+      ],
+      "status": "AVAILABLE",
+      "notes": "3 bedrooms \nParlor \n1 master \nGeneral bathroom \nKitchen with Dining \nFence parking front the house \nAt Mountain cut \nPrice Le 60,000\n\nPv 076479396",
+      "createdAt": "2026-06-26T08:28:19.894Z"
+    }
+  ]
+}

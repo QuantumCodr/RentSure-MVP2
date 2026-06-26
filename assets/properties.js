@@ -140,23 +140,13 @@ function initPropertyForm() {
     });
 
     FEATURES.forEach(feature => {
-
-        document
-            .getElementById(
-                "featuresBox"
-            )
-            .innerHTML += `
-
-            <label>
-
-                <input
-                    type="checkbox"
-                    value="${feature}"
-                    name="feature">
-
-                ${feature}
-
-            </label>
+        document.getElementById("featuresBox").innerHTML += `
+            <div class="checkbox-item">
+                <label>
+                    <span class="checkbox-text">${feature}</span>
+                    <input type="checkbox" value="${feature}" name="feature">
+                </label>
+            </div>
         `;
     });
 

@@ -1,4 +1,5 @@
 const LOCATIONS = [
+    "other",
     "Jui",
     "Hastings",
     "Aberdeen",
@@ -15,6 +16,8 @@ const LOCATIONS = [
     "Kamayama",
     "Juba",
     "Godrich",
+    "Ogoo Farm",
+    "Hamilton",
     "Murray Town",
     "Congo Town",
     "Tengbeh Town",
@@ -25,7 +28,10 @@ const LOCATIONS = [
     "Deep Yai Water",
     "Wellington",
     "Calaba Town",
-    "other"
+    "Mountain Cut",
+    "Allen Town",
+    "Syke Street",
+    "Grafton",
 ];
 
 const PROPERTY_TYPES = [
@@ -33,15 +39,16 @@ const PROPERTY_TYPES = [
     "1 Bedroom",
     "2 Bedroom",
     "3 Bedroom",
-    "4 Bedroom"
+    "4 Bedroom",
+    "5 Bedroom"
 ];
 
 const FEATURES = [
+    "Self Contained",
     "Water",
     "Electricity",
     "Dinning",
     "Kitchen",
-    "Self Contained",
     "Parking",
     "Compound",
     "Road Access"

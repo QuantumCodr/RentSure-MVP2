@@ -31,6 +31,10 @@ document.addEventListener(
                     Properties
                 </a>
 
+                <a href="profile.html">
+                    Profile
+                </a>
+
             </div>
         `;
 
