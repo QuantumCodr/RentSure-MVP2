@@ -1,5 +1,8 @@
 const LOCATIONS = [
     "other",
+    "Scan Drive",
+    "Spur Road",
+    "Femi Turner",
     "Jui",
     "Hastings",
     "Aberdeen",
@@ -32,6 +35,7 @@ const LOCATIONS = [
     "Allen Town",
     "Syke Street",
     "Grafton",
+    "other"
 ];
 
 const PROPERTY_TYPES = [
@@ -40,7 +44,8 @@ const PROPERTY_TYPES = [
     "2 Bedroom",
     "3 Bedroom",
     "4 Bedroom",
-    "5 Bedroom"
+    "5 Bedroom",
+    "Office"
 ];
 
 const FEATURES = [

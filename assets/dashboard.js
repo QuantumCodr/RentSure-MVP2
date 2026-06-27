@@ -163,49 +163,39 @@ function renderActivity() {
         });
 
     activities.reverse();
-
     box.innerHTML = "";
-
     activities.forEach(item => {
-
         box.innerHTML += `
-
             <div class="activity-item">
-
                 ${item}
-
             </div>
-
         `;
     });
 }
 
 function initImport() {
-
     const input =
         document.getElementById(
             "backupFile"
         );
-
     if (!input) return;
 
     input.addEventListener(
         "change",
         e => {
-
             const file =
                 e.target.files[0];
-
             if (!file) return;
-
             Backup.import(file);
         }
     );
 }
-
-renderStats();
-renderSummary();
-renderRecentTenants();
-renderRecentProperties();
-renderActivity();
-initImport();
+(async () => {
+    await BackupDB.init();
+    renderStats();
+    renderSummary();
+    renderRecentTenants();
+    renderRecentProperties();
+    renderActivity();
+    initImport();
+})();

@@ -43,22 +43,27 @@
     <div class="dashboard-actions">
 
         <a href="tenants.html">
-            <button class="primary">
-                Tenants
-            </button>
+            <button class="primary">Tenants</button>
         </a>
 
         <a href="properties.html">
-            <button class="primary">
-                Properties
-            </button>
+            <button class="primary">Properties</button>
         </a>
+
+        <button
+            class="primary"
+            onclick="Backup.save()">
+
+            Save
+
+        </button>
 
         <button
             class="primary"
             onclick="Backup.export()">
 
             Export
+
         </button>
 
         <label class="primary file-btn">
