@@ -144,10 +144,27 @@ function initPropertyForm() {
             <div class="checkbox-item">
                 <label>
                     <span class="checkbox-text">${feature}</span>
-                    <input type="checkbox" value="${feature}" name="feature">
+                    <input type="checkbox"
+                        value="${feature}"
+                        name="feature"
+                        class="feature-checkbox">
                 </label>
             </div>
         `;
+    });
+    const checkAllFeaturesBtn = document.getElementById("checkAllFeaturesBtn");
+    const uncheckAllFeaturesBtn = document.getElementById("uncheckAllFeaturesBtn");
+
+    checkAllFeaturesBtn.addEventListener("click", () => {
+        document.querySelectorAll(".feature-checkbox").forEach(cb => {
+            cb.checked = true;
+        });
+    });
+
+    uncheckAllFeaturesBtn.addEventListener("click", () => {
+        document.querySelectorAll(".feature-checkbox").forEach(cb => {
+            cb.checked = false;
+        });
     });
 
     const params =

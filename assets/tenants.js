@@ -12,6 +12,7 @@ function renderTenants() {
     if (!container) return;
 
     const tenants =
+        //Storage.getTenants().slice().reverse();
         Storage.getTenants();
 
     container.innerHTML = "";
